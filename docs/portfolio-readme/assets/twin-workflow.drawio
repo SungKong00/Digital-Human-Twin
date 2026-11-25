@@ -1,196 +1,144 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mxfile host="app.diagrams.net" type="device">
-  <diagram id="twin-workflow" name="Run-Twin | 하루씩 계산하는 방법" alt="Run-Twin | 하루씩 계산하는 방법 · 5K 기본 일정은 목표 존 경로를 사용한다">
-    <mxGraphModel page="1" pageScale="1" pageWidth="1260" pageHeight="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" math="0" shadow="0" background="#FFFFFF">
+<mxfile host="app.diagrams.net" version="32.7.4">
+  <diagram id="twin-workflow" name="twin-workflow">
+    <mxGraphModel page="1" pageWidth="598" pageHeight="515" grid="1" gridSize="10" connect="1" arrows="1" fold="1" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="canvas" parent="1" vertex="1" value="" style="fillColor=#FFFFFF;strokeColor=none;movable=0;resizable=0;editable=0;selectable=0;html=0;">
-          <mxGeometry x="0" y="0" width="1260" height="720" as="geometry" />
+        <mxCell id="bounds" value="" style="shape=rectangle;fillColor=#FFFFFF;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="598" height="515" as="geometry" />
         </mxCell>
-        <mxCell id="title" parent="1" vertex="1" value="Run-Twin | 하루씩 계산하는 방법" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#15283D;fontSize=35;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="43" y="24" width="1175" height="45" as="geometry" />
+        <mxCell id="decor1" value="시뮬레이션 흐름" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=17;fontColor=#14679D;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="18" y="10" width="562" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" parent="1" vertex="1" value="하루의 훈련 유형과 목표 강도에 맞춰 심박 경로를 고른다. 기본 5K 일정은 훈련 존을 사용한다." style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#485D72;fontSize=21;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="45" y="74" width="1170" height="39" as="geometry" />
+        <mxCell id="decor2" value="목표 심박과 예상 심박은 다르게 처리" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=27;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="18" y="40" width="562" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="plan" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="60" y="305" width="256" height="72" as="geometry" />
+        <mxCell id="b0" value="" style="rounded=1;arcSize=6;strokeWidth=1.4;strokeColor=#9FBCCF;fillColor=#EDF5FB;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="17" y="91" width="564" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="plan_tile" parent="plan" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#A7BBD8;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
+        <mxCell id="decor3" value="심박이 명시된 일정" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#14679D;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="29" y="98" width="540" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="plan_icon" parent="plan" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMyMTRGODciCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iNCIgeD0iOCIgeT0iMiIgcng9IjEiIHJ5PSIxIiAvPgogIDxwYXRoIGQ9Ik0xNiA0aDJhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY2YTIgMiAwIDAgMSAyLTJoMiIgLz4KICA8cGF0aCBkPSJNMTIgMTFoNCIgLz4KICA8cGF0aCBkPSJNMTIgMTZoNCIgLz4KICA8cGF0aCBkPSJNOCAxMWguMDEiIC8+CiAgPHBhdGggZD0iTTggMTZoLjAxIiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
+        <mxCell id="b1" value="" style="rounded=1;arcSize=6;strokeWidth=1.4;strokeColor=#91BFAF;fillColor=#ECF8F3;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="17" y="230" width="564" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="plan_label" parent="plan" vertex="1" value="하루의 일정 읽기" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#214F87;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="9" width="202" height="29" as="geometry" />
+        <mxCell id="decor4" value="심박이 없는 일정" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#087D68;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="29" y="237" width="540" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="plan_desc" parent="plan" vertex="1" value="훈련·휴식, 유형, 강도·시간" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="37" width="202" height="33" as="geometry" />
+        <mxCell id="b2" value="" style="rounded=1;arcSize=6;strokeWidth=1.4;strokeColor=#D5AE86;fillColor=#FFFAF2;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="17" y="369" width="564" height="124" as="geometry" />
         </mxCell>
-        <mxCell id="direct" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="480" y="268" width="334" height="75" as="geometry" />
+        <mxCell id="decor5" value="일별 결과" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#A9530D;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="29" y="376" width="540" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="direct_tile" parent="direct" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
+        <mxCell id="0a" value="" style="rounded=1;arcSize=13;fillColor=#FFFFFF;strokeColor=#9FBCCF;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="29" y="137" width="219" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="direct_icon" parent="direct" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
+        <mxCell id="decor6" value="" style="ellipse;fillColor=#EDF5FB;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="37" y="153.5" width="29" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="direct_label" parent="direct" vertex="1" value="② 지원하는 훈련 유형" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="280" height="29" as="geometry" />
+        <mxCell id="decor7" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%2314679D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M19%2012h21M19%2024h21M19%2036h21M8%2012h2m-2%2012h2m-2%2012h2%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="40.48" y="156.98" width="22.04" height="22.04" as="geometry" />
         </mxCell>
-        <mxCell id="direct_desc" parent="direct" vertex="1" value="해당 운동의 VDOT 훈련 존 사용" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="280" height="34" as="geometry" />
+        <mxCell id="decor8" value="직접 지정한 심박" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="142" width="172" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="predict" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="480" y="388" width="334" height="75" as="geometry" />
+        <mxCell id="decor9" value="입력값 그대로 사용" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="167" width="172" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="predict_tile" parent="predict" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
+        <mxCell id="0b" value="" style="rounded=1;arcSize=13;fillColor=#FFFFFF;strokeColor=#9FBCCF;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="352" y="137" width="217" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="predict_icon" parent="predict" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
+        <mxCell id="decor10" value="" style="ellipse;fillColor=#EDF5FB;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="153.5" width="29" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="predict_label" parent="predict" vertex="1" value="③ 존을 정할 수 없는 운동" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="280" height="29" as="geometry" />
+        <mxCell id="decor11" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%2314679D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2224%22%20r%3D%2217%22%2F%3E%3Cpath%20d%3D%22m17%2024%205%205%209-10M6%2024h4m28%200h4%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="363.48" y="156.98" width="22.04" height="22.04" as="geometry" />
         </mxCell>
-        <mxCell id="predict_desc" parent="predict" vertex="1" value="일반 심박 모델 + 개인 보정" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="280" height="34" as="geometry" />
+        <mxCell id="decor12" value="훈련 부하(TRIMP)" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="142" width="170" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="trimp" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="941" y="280" width="266" height="75" as="geometry" />
+        <mxCell id="decor13" value="운동 시간과 심박 조합" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="167" width="170" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="trimp_tile" parent="trimp" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#CFB879;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
+        <mxCell id="1a" value="" style="rounded=1;arcSize=13;fillColor=#FFFFFF;strokeColor=#91BFAF;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="29" y="276" width="219" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="trimp_icon" parent="trimp" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM3NjUwMDgiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
+        <mxCell id="decor14" value="" style="ellipse;fillColor=#ECF8F3;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="37" y="292.5" width="29" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="trimp_label" parent="trimp" vertex="1" value="훈련 부하 계산" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#765008;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="212" height="29" as="geometry" />
+        <mxCell id="decor15" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23087D68%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22m8%2015%2016-8%2016%208v18l-16%208-16-8zM8%2015l16%208%2016-8M24%2023v18m-8-30%2016%208%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="40.48" y="295.98" width="22.04" height="22.04" as="geometry" />
         </mxCell>
-        <mxCell id="trimp_desc" parent="trimp" vertex="1" value="심박 + 운동 시간 → TRIMP" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="212" height="34" as="geometry" />
+        <mxCell id="decor16" value="유형 지정 · 미지정" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="281" width="172" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="state" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="941" y="502" width="266" height="83" as="geometry" />
+        <mxCell id="decor17" value="VDOT 환산 또는 모델 예측" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="306" width="172" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="state_tile" parent="state" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#ABB7C1;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="21" width="40" height="40" as="geometry" />
+        <mxCell id="1b" value="" style="rounded=1;arcSize=13;fillColor=#FFFFFF;strokeColor=#91BFAF;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="352" y="276" width="217" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="state_icon" parent="state" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM0MzU5NjgiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
-          <mxGeometry x="10" y="29" width="24" height="24" as="geometry" />
+        <mxCell id="decor18" value="" style="ellipse;fillColor=#ECF8F3;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="292.5" width="29" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="state_label" parent="state" vertex="1" value="체력·피로 갱신" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#435968;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="14" width="212" height="29" as="geometry" />
+        <mxCell id="decor19" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23087D68%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2224%22%20r%3D%2217%22%2F%3E%3Cpath%20d%3D%22m17%2024%205%205%209-10M6%2024h4m28%200h4%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="363.48" y="295.98" width="22.04" height="22.04" as="geometry" />
         </mxCell>
-        <mxCell id="state_desc" parent="state" vertex="1" value="일일 누적 → 주별 요약" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="42" width="212" height="38" as="geometry" />
+        <mxCell id="decor20" value="훈련 부하(TRIMP)" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="281" width="170" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="explicit" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="480" y="148" width="334" height="75" as="geometry" />
+        <mxCell id="decor21" value="운동 시간과 심박 조합" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="306" width="170" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="explicit_tile" parent="explicit" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
+        <mxCell id="2a" value="" style="rounded=1;arcSize=13;fillColor=#FFFFFF;strokeColor=#D5AE86;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="29" y="415" width="219" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="explicit_icon" parent="explicit" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
+        <mxCell id="decor22" value="" style="ellipse;fillColor=#FFFAF2;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="37" y="431.5" width="29" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="explicit_label" parent="explicit" vertex="1" value="① 직접 지정한 심박 존" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="280" height="29" as="geometry" />
+        <mxCell id="decor23" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23A9530D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M36%2018a14%2014%200%201%200%201%2012M37%209v10H27%22%2F%3E%3Cpath%20d%3D%22M24%2017v8l5%203%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="40.48" y="434.98" width="22.04" height="22.04" as="geometry" />
         </mxCell>
-        <mxCell id="explicit_desc" parent="explicit" vertex="1" value="최대 심박에 지정 비율 적용" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="280" height="34" as="geometry" />
+        <mxCell id="decor24" value="훈련일 · 휴식일" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="420" width="172" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="rest" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="480" y="508" width="334" height="75" as="geometry" />
+        <mxCell id="decor25" value="휴식일 부하 0" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="72" y="445" width="172" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="rest_tile" parent="rest" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
-          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
+        <mxCell id="2b" value="" style="rounded=1;arcSize=13;fillColor=#FFFFFF;strokeColor=#D5AE86;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="352" y="415" width="217" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="rest_icon" parent="rest" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
-          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
+        <mxCell id="decor26" value="" style="ellipse;fillColor=#FFFAF2;strokeColor=none;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="431.5" width="29" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="rest_label" parent="rest" vertex="1" value="휴식일" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="280" height="29" as="geometry" />
+        <mxCell id="decor27" value="" style="shape=image;imageAspect=1;aspect=fixed;image=data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2048%2048%22%3E%3Cg%20fill%3D%22none%22%20stroke%3D%22%23A9530D%22%20stroke-width%3D%222.8%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M19%2012h21M19%2024h21M19%2036h21M8%2012h2m-2%2012h2m-2%2012h2%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="363.48" y="434.98" width="22.04" height="22.04" as="geometry" />
         </mxCell>
-        <mxCell id="rest_desc" parent="rest" vertex="1" value="새 훈련 부하 0" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="280" height="34" as="geometry" />
+        <mxCell id="decor28" value="체력과 피로" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=19;fontColor=#172D44;fontStyle=1;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="420" width="170" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="edge-0" value="강도 지정" edge="1" parent="1" source="plan" target="explicit" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="352" y="185" />
-            </Array>
-            <mxPoint x="0" y="-18" as="offset" />
-          </mxGeometry>
+        <mxCell id="decor29" value="서로 다른 속도로 감쇠" style="text;html=0;align=left;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#50657B;fontStyle=0;fillColor=none;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="445" width="170" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="edge-1" value="지정값 없음" edge="1" parent="1" source="plan" target="direct" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="352" y="305" />
-            </Array>
-            <mxPoint x="0" y="-18" as="offset" />
-          </mxGeometry>
+        <mxCell id="decor30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#14679D;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=0;dashPattern=5 5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="0a" target="0b">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge-2" value="훈련 존 없음" edge="1" parent="1" source="plan" target="predict" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="352" y="425" />
-            </Array>
-            <mxPoint x="0" y="-18" as="offset" />
-          </mxGeometry>
+        <mxCell id="decor31" value="목표 심박" style="text;html=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#14679D;fontStyle=1;fillColor=#FFFFFF;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="141" width="99" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="edge-3" value="운동 없음" edge="1" parent="1" source="plan" target="rest" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="352" y="545" />
-            </Array>
-            <mxPoint x="0" y="-18" as="offset" />
-          </mxGeometry>
+        <mxCell id="decor32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#14679D;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=0;dashPattern=5 5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="1a" target="1b">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="out-0" value="" edge="1" parent="1" source="explicit" target="trimp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="855" y="318" />
-            </Array>
-            <mxPoint x="0" y="-14" as="offset" />
-          </mxGeometry>
+        <mxCell id="decor33" value="추정 심박" style="text;html=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#14679D;fontStyle=1;fillColor=#FFFFFF;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="99" height="21" as="geometry" />
         </mxCell>
-        <mxCell id="out-1" value="" edge="1" parent="1" source="direct" target="trimp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="875" y="318" />
-            </Array>
-            <mxPoint x="0" y="-14" as="offset" />
-          </mxGeometry>
+        <mxCell id="decor34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=0;strokeColor=#14679D;strokeWidth=2;endArrow=block;endFill=1;endSize=8;dashed=0;dashPattern=5 5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="2a" target="2b">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="out-2" value="" edge="1" parent="1" source="predict" target="trimp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="895" y="318" />
-            </Array>
-            <mxPoint x="0" y="-14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rest-state" value="부하 0" edge="1" parent="1" source="rest" target="state" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="883" y="545" />
-              <mxPoint x="883" y="544" />
-            </Array>
-            <mxPoint x="0" y="-14" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="trimp-state" value="그날 부하" edge="1" parent="1" source="trimp" target="state" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="39" y="0" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="note" parent="1" vertex="1" value="합성 5K 시연: 28일 계산 · 4주 요약 · 4주차 CTL 32.5 / ATL 35.4 / TSB −2.9. 예측 정확도를 뜻하지 않는다." style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#43586D;fontSize=17;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="45" y="668" width="1170" height="38" as="geometry" />
+        <mxCell id="decor35" value="일별 부하" style="text;html=0;align=center;verticalAlign=middle;spacing=0;fontFamily=Apple SD Gothic Neo;fontSize=16;fontColor=#14679D;fontStyle=1;fillColor=#FFFFFF;strokeColor=none;whiteSpace=wrap;overflow=visible;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="419" width="99" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
