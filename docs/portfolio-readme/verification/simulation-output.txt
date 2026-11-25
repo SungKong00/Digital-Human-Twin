@@ -1,0 +1,26 @@
+PASS original result avatar: {"width":598,"height":278,"three":"128","webgl":true}
+PASS original pinned route/schema + UI matched: {"weeks":4,"requestDays":28,"responseDays":28,"responseWeeks":4,"ctl":32.5,"atl":35.4,"tsb":-2.9}
+PASS: original 5K template -> schedule -> original V2 simulation results
+월
+휴식
+화
+EASY
+5km
+6:30/km
+수
+휴식
+목
+INTERVAL
+6km
+5:12/km
+금
+EASY
+4km
+6:30/km
+토
+휴식
+일
+LONG
+8km
+6:00/km
+page notices: Cannot read properties of null (reading 'addEventListener')

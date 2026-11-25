@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mxfile host="app.diagrams.net" type="device">
   <diagram id="twin-workflow" name="Run-Twin | 하루씩 계산하는 방법" alt="Run-Twin | 하루씩 계산하는 방법 · 5K 기본 일정은 목표 존 경로를 사용한다">
-    <mxGraphModel page="1" pageScale="1" pageWidth="1140" pageHeight="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" math="0" shadow="0" background="#FFFFFF">
+    <mxGraphModel page="1" pageScale="1" pageWidth="1260" pageHeight="720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" math="0" shadow="0" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="canvas" parent="1" vertex="1" value="" style="fillColor=#FFFFFF;strokeColor=none;movable=0;resizable=0;editable=0;selectable=0;html=0;">
-          <mxGeometry x="0" y="0" width="1140" height="660" as="geometry" />
+          <mxGeometry x="0" y="0" width="1260" height="720" as="geometry" />
         </mxCell>
         <mxCell id="title" parent="1" vertex="1" value="Run-Twin | 하루씩 계산하는 방법" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#15283D;fontSize=35;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="43" y="24" width="1055" height="45" as="geometry" />
+          <mxGeometry x="43" y="24" width="1175" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" parent="1" vertex="1" value="5K 기본 일정은 목표 존 경로를 사용한다" style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#485D72;fontSize=21;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="45" y="74" width="1050" height="39" as="geometry" />
+        <mxCell id="subtitle" parent="1" vertex="1" value="하루의 훈련 유형과 목표 강도에 맞춰 심박 경로를 고른다. 기본 5K 일정은 훈련 존을 사용한다." style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#485D72;fontSize=21;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="45" y="74" width="1170" height="39" as="geometry" />
         </mxCell>
         <mxCell id="plan" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="430" y="156" width="280" height="72" as="geometry" />
+          <mxGeometry x="60" y="305" width="256" height="72" as="geometry" />
         </mxCell>
         <mxCell id="plan_tile" parent="plan" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#A7BBD8;strokeWidth=1.2;html=0;">
           <mxGeometry x="2" y="16" width="40" height="40" as="geometry" />
@@ -23,14 +23,14 @@
         <mxCell id="plan_icon" parent="plan" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMyMTRGODciCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjgiIGhlaWdodD0iNCIgeD0iOCIgeT0iMiIgcng9IjEiIHJ5PSIxIiAvPgogIDxwYXRoIGQ9Ik0xNiA0aDJhMiAyIDAgMCAxIDIgMnYxNGEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY2YTIgMiAwIDAgMSAyLTJoMiIgLz4KICA8cGF0aCBkPSJNMTIgMTFoNCIgLz4KICA8cGF0aCBkPSJNMTIgMTZoNCIgLz4KICA8cGF0aCBkPSJNOCAxMWguMDEiIC8+CiAgPHBhdGggZD0iTTggMTZoLjAxIiAvPgo8L3N2Zz4K;">
           <mxGeometry x="10" y="24" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="plan_label" parent="plan" vertex="1" value="날짜별 운동 계획" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#214F87;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="9" width="226" height="29" as="geometry" />
+        <mxCell id="plan_label" parent="plan" vertex="1" value="하루의 일정 읽기" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#214F87;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="9" width="202" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="plan_desc" parent="plan" vertex="1" value="운동 종류·시간을 읽음" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="37" width="226" height="33" as="geometry" />
+        <mxCell id="plan_desc" parent="plan" vertex="1" value="훈련·휴식, 유형, 강도·시간" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="37" width="202" height="33" as="geometry" />
         </mxCell>
         <mxCell id="direct" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="64" y="303" width="278" height="75" as="geometry" />
+          <mxGeometry x="480" y="268" width="334" height="75" as="geometry" />
         </mxCell>
         <mxCell id="direct_tile" parent="direct" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
           <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
@@ -38,14 +38,14 @@
         <mxCell id="direct_icon" parent="direct" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
           <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="direct_label" parent="direct" vertex="1" value="지원하는 훈련 존" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="224" height="29" as="geometry" />
+        <mxCell id="direct_label" parent="direct" vertex="1" value="② 지원하는 훈련 유형" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="10" width="280" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="direct_desc" parent="direct" vertex="1" value="존의 목표 심박 적용" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="224" height="34" as="geometry" />
+        <mxCell id="direct_desc" parent="direct" vertex="1" value="해당 운동의 VDOT 훈련 존 사용" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="38" width="280" height="34" as="geometry" />
         </mxCell>
         <mxCell id="predict" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="798" y="303" width="278" height="75" as="geometry" />
+          <mxGeometry x="480" y="388" width="334" height="75" as="geometry" />
         </mxCell>
         <mxCell id="predict_tile" parent="predict" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
           <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
@@ -53,14 +53,14 @@
         <mxCell id="predict_icon" parent="predict" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
           <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="predict_label" parent="predict" vertex="1" value="존 매핑이 없는 운동" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="224" height="29" as="geometry" />
+        <mxCell id="predict_label" parent="predict" vertex="1" value="③ 존을 정할 수 없는 운동" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="10" width="280" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="predict_desc" parent="predict" vertex="1" value="일반 모델 + 개인 보정" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="224" height="34" as="geometry" />
+        <mxCell id="predict_desc" parent="predict" vertex="1" value="일반 심박 모델 + 개인 보정" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="38" width="280" height="34" as="geometry" />
         </mxCell>
         <mxCell id="trimp" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="430" y="303" width="280" height="75" as="geometry" />
+          <mxGeometry x="941" y="280" width="266" height="75" as="geometry" />
         </mxCell>
         <mxCell id="trimp_tile" parent="trimp" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#CFB879;strokeWidth=1.2;html=0;">
           <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
@@ -68,14 +68,14 @@
         <mxCell id="trimp_icon" parent="trimp" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM3NjUwMDgiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
           <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="trimp_label" parent="trimp" vertex="1" value="일별 훈련 부하" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#765008;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="10" width="226" height="29" as="geometry" />
+        <mxCell id="trimp_label" parent="trimp" vertex="1" value="훈련 부하 계산" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#765008;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="10" width="212" height="29" as="geometry" />
         </mxCell>
         <mxCell id="trimp_desc" parent="trimp" vertex="1" value="심박 + 운동 시간 → TRIMP" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="38" width="226" height="34" as="geometry" />
+          <mxGeometry x="49" y="38" width="212" height="34" as="geometry" />
         </mxCell>
         <mxCell id="state" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
-          <mxGeometry x="388" y="480" width="364" height="83" as="geometry" />
+          <mxGeometry x="941" y="502" width="266" height="83" as="geometry" />
         </mxCell>
         <mxCell id="state_tile" parent="state" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#ABB7C1;strokeWidth=1.2;html=0;">
           <mxGeometry x="2" y="21" width="40" height="40" as="geometry" />
@@ -83,37 +83,114 @@
         <mxCell id="state_icon" parent="state" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM0MzU5NjgiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjE0IiB4PSIyIiB5PSIzIiByeD0iMiIgLz4KICA8bGluZSB4MT0iOCIgeDI9IjE2IiB5MT0iMjEiIHkyPSIyMSIgLz4KICA8bGluZSB4MT0iMTIiIHgyPSIxMiIgeTE9IjE3IiB5Mj0iMjEiIC8+Cjwvc3ZnPgo=;">
           <mxGeometry x="10" y="29" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="state_label" parent="state" vertex="1" value="일별 체력·피로 → 주별 요약" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#435968;fontStyle=1;fontFamily=Arial;">
-          <mxGeometry x="49" y="14" width="310" height="29" as="geometry" />
+        <mxCell id="state_label" parent="state" vertex="1" value="체력·피로 갱신" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#435968;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="14" width="212" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="state_desc" parent="state" vertex="1" value="다른 감쇠율 · 휴식일 새 부하 0" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="49" y="42" width="310" height="38" as="geometry" />
+        <mxCell id="state_desc" parent="state" vertex="1" value="일일 누적 → 주별 요약" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="42" width="212" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="edge-0" value="목표 존 있음" edge="1" parent="1" source="plan" target="direct" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+        <mxCell id="explicit" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="480" y="148" width="334" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="explicit_tile" parent="explicit" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#9FBEB1;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="explicit_icon" parent="explicit" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMxMjYxNEYiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
+          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="explicit_label" parent="explicit" vertex="1" value="① 직접 지정한 심박 존" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#12614F;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="10" width="280" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="explicit_desc" parent="explicit" vertex="1" value="최대 심박에 지정 비율 적용" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="38" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="rest" parent="1" vertex="1" value="" style="rounded=0;fillColor=none;strokeColor=none;whiteSpace=wrap;html=0;">
+          <mxGeometry x="480" y="508" width="334" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="rest_tile" parent="rest" vertex="1" value="" style="rounded=1;arcSize=16;fillColor=#FFFFFF;strokeColor=#B9ADD4;strokeWidth=1.2;html=0;">
+          <mxGeometry x="2" y="17" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rest_icon" parent="rest" vertex="1" value="" style="shape=image;imageAspect=1;image=data:image/svg+xml,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiM1NDNFODMiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHJlY3Qgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIHg9IjIiIHk9IjIiIHJ4PSIyIiByeT0iMiIgLz4KICA8cmVjdCB3aWR0aD0iMjAiIGhlaWdodD0iOCIgeD0iMiIgeT0iMTQiIHJ4PSIyIiByeT0iMiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSI2IiB5Mj0iNiIgLz4KICA8bGluZSB4MT0iNiIgeDI9IjYuMDEiIHkxPSIxOCIgeTI9IjE4IiAvPgo8L3N2Zz4K;">
+          <mxGeometry x="10" y="25" width="24" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="rest_label" parent="rest" vertex="1" value="휴식일" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=21;fontColor=#543E83;fontStyle=1;fontFamily=Arial;">
+          <mxGeometry x="49" y="10" width="280" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="rest_desc" parent="rest" vertex="1" value="새 훈련 부하 0" style="text;html=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;spacing=0;fontSize=17;fontColor=#425E70;fontStyle=0;fontFamily=Arial;">
+          <mxGeometry x="49" y="38" width="280" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="edge-0" value="강도 지정" edge="1" parent="1" source="plan" target="explicit" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="203" y="192" />
+              <mxPoint x="352" y="185" />
             </Array>
+            <mxPoint x="0" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge-1" value="목표 존 없음" edge="1" parent="1" source="plan" target="predict" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+        <mxCell id="edge-1" value="지정값 없음" edge="1" parent="1" source="plan" target="direct" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="937" y="192" />
+              <mxPoint x="352" y="305" />
             </Array>
+            <mxPoint x="0" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge-2" value="" edge="1" parent="1" source="direct" target="trimp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge-2" value="훈련 존 없음" edge="1" parent="1" source="plan" target="predict" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="425" />
+            </Array>
+            <mxPoint x="0" y="-18" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="edge-3" value="" edge="1" parent="1" source="predict" target="trimp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="edge-3" value="운동 없음" edge="1" parent="1" source="plan" target="rest" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="545" />
+            </Array>
+            <mxPoint x="0" y="-18" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="edge-4" value="일별 부하" edge="1" parent="1" source="trimp" target="state" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="out-0" value="" edge="1" parent="1" source="explicit" target="trimp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="855" y="318" />
+            </Array>
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="out-1" value="" edge="1" parent="1" source="direct" target="trimp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="318" />
+            </Array>
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="out-2" value="" edge="1" parent="1" source="predict" target="trimp" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="318" />
+            </Array>
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rest-state" value="부하 0" edge="1" parent="1" source="rest" target="state" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="883" y="545" />
+              <mxPoint x="883" y="544" />
+            </Array>
+            <mxPoint x="0" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trimp-state" value="그날 부하" edge="1" parent="1" source="trimp" target="state" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=1;strokeColor=#415C70;strokeWidth=2.2;fontColor=#24435A;fontSize=16;labelBackgroundColor=#FFFFFF;labelPadding=2;fontFamily=Arial;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39" y="0" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="note" parent="1" vertex="1" value="합성 5K 시연: 28일 계산 · 4주 요약 · 4주차 CTL 32.5 / ATL 35.4 / TSB −2.9. 예측 정확도를 뜻하지 않는다." style="text;html=0;strokeColor=none;fillColor=none;whiteSpace=wrap;align=left;verticalAlign=middle;spacing=0;fontColor=#43586D;fontSize=17;fontStyle=0;fontFamily=Arial;">
-          <mxGeometry x="45" y="608" width="1050" height="38" as="geometry" />
+          <mxGeometry x="45" y="668" width="1170" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

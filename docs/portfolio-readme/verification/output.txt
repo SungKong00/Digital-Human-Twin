@@ -1,0 +1,3 @@
+source=5e58f93:backend/services/trimp_utils.py (audited function only)
+synthetic: 30 min, HRrest=60, HRmax=190; avg 135 -> 33.53; avg 160 -> 64.68
+PASS: greater average heart rate raises calculated load; rest-level HR yields zero

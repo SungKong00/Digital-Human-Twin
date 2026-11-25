@@ -1,0 +1,1 @@
+PASS original history screens: {"workouts":12,"workoutId":1011,"hrPoints":30,"twins":1,"profile":"지우"}

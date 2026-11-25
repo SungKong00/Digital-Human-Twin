@@ -15,18 +15,7 @@
 - 모델과 SQLite는 별도로 생성했다. 원본 `GlobalHRModel`은 고정 시드로 만든 가상 학습 행 96개, 원본 군집 모델은 가상 프로필 8개를 사용한다. 가상 트윈의 DB에는 생성된 워크아웃 12개와 가상 심박 시계열만 있다. 원래 저장소의 건강 데이터·학습 모델·DB 파일은 사용하지 않았다.
 - 고정 [Chart.js 4.4.1 패키지](https://registry.npmjs.org/chart.js/-/chart.js-4.4.1.tgz)를 미리 받아 같은 URL 요청에 로컬 바이트를 돌려줬다. 브라우저 실행 중 실제 외부 요청, 외부 글꼴과 아바타는 차단했다. 개인화 일정 조회만 503으로 처리해 원본의 기본 5K 템플릿을 사용했다. 훈련 일정은 개인화 추천 결과가 아니다.
 - 브라우저가 실제 제출한 `POST /api/v2/simulate` JSON을 캡처해 새 로컬 프로세스의 **원본 V2 핸들러와 Pydantic 스키마**에 넘겼다. 독립 HTTP 서버를 실행하지는 않았다. 응답 수치는 캡처 스크립트에서 작성하지 않았으며, 원본 서비스가 가상 DB와 모델에서 계산한 응답을 화면으로 돌려줬다. 네트워크·배포·인증 통합 테스트는 아니다.
-- 실행 로그: 일별 요청 28개 → 일별 결과 28개, 주별 요약 4개. 원본 화면의 CTL·ATL 수치가 응답과 동일하고 원본 Chart.js 체력 차트가 생성되었음을 검사했다. 이 시나리오는 내장 훈련 존을 사용하며, 개인 잔차 모델의 성능이나 실제 운동 효과는 검증하지 않았다.
-
-### 합성 데모 재현
-
-Python 3.13에 캡처에 사용한 계산 의존성을 설치한다. Node.js, Playwright에서 실행 가능한 Chrome 및 FFmpeg도 필요하다. Chart.js는 준비 단계에서만 공개 npm 레지스트리에서 내려받으며, 미리 받은 원본 패키지의 경로를 `CHART_JS_ARCHIVE`로 넘기면 내려받지 않는다.
-
-```sh
-export TWIN_SIM_DIR="$(sh verification/prepare-simulation.sh /path/to/ai_twin)"
-node verification/capture-ui.cjs /path/to/ai_twin --write-screens --record-native
-```
-
-준비 스크립트는 지정 커밋에서 Python 소스만 허용 목록으로 복사한다. 모델·가상 기록은 새로운 임시 디렉터리에 생성한다. 정지 화면은 검토본 assets에, 원본 WebM과 단계 기록은 TWIN_VIDEO_DIR에 저장한다.
+- [실행 로그](../verification/simulation-output.txt): 일별 요청 28개 → 일별 결과 28개, 주별 요약 4개. 원본 화면의 CTL·ATL 수치가 응답과 동일하고 원본 Chart.js 체력 차트가 생성되었음을 검사했다. 이 시나리오는 내장 훈련 존을 사용하며, 개인 잔차 모델의 성능이나 실제 운동 효과는 검증하지 않았다.
 
 ## 구조 확인
 
@@ -37,13 +26,9 @@ node verification/capture-ui.cjs /path/to/ai_twin --write-screens --record-nativ
 | `backend/models/ml_models/digital_twin_v2.py` | 심박 예측 경로에서 일반 모델과 개인 보정의 예측값을 취합하며, 최종 값을 트윈의 안정시·최대 심박 범위에 제한한다. |
 | `backend/services/trimp_utils.py` | 평균심박, 안정시·최대 심박 및 운동 시간으로 Banister 방식의 부하값을 계산한다. |
 
-## 가상 입력으로 재현
+## 가상 입력으로 계산 확인
 
-```sh
-python3 verification/check_trimp.py /path/to/ai_twin
-```
-
-스크립트는 로컬 Git 객체에서 고정 커밋의 **계산 함수 하나만** 가져와 실행한다. 대상 함수의 스칼라 지수 계산에는 표준 라이브러리의 동등 연산을 연결한다. API, DB, 학습 모델, 실데이터는 읽거나 실행하지 않는다. 저장된 실행 출력은 각 입력의 수치 일치, 높아진 평균 심박에 따른 부하 증가, 안정시 심박 입력의 0을 확인한 기록이다. 사용자 맞춤 운동 강도를 추천하는 임상·성능 검증은 아니다.
+[저장된 실행 출력](../verification/output.txt)을 참조하세요.
 
 ## 참고한 문서 형식
 
@@ -53,7 +38,6 @@ python3 verification/check_trimp.py /path/to/ai_twin
 
 - Chromium이 연속 기록한 25fps WebM으로 제작했다. 화면 진입 전과 계산 대기, 결과 전환 중 흰색으로 뜬 일시적인 프레임만 덜어내고, 선택·버튼 조작·결과·차트 애니메이션은 원본 시간 간격을 보존했다.
 - 스크롤과 차트 그리기 구간에서 화면 변화가 실제 기록된 것을 대조했다. 캡처에서 Three.js r128과 WebGL 캔버스의 렌더링도 확인했다.
-- 파일 단위 검수 결과 · 녹화 중 단계 기록
 
 ## 초기값을 바꾼 근거
 
@@ -68,4 +52,4 @@ python3 verification/check_trimp.py /path/to/ai_twin
 
 - 같은 생성 이력이 들어 있는 SQLite에서 워크아웃 목록·상세, 등록 기록, 트윈 목록을 각각 원본 GET 핸들러로 실행했다. 목록에서 최신 운동을 열고 12개 중 운동 1011의 심박 데이터 30점이 SVG 선으로 그려진 것을 확인했다. 이후 원래 트윈 목록에서 지우 프로필을 열었다. 이 경로에서는 새 트윈 생성이나 데이터 업로드를 하지 않았다.
 - 원래 결과 아바타는 별도 iframe이다. 확인 시 고정 커밋의 avatar_demo.html과 Three.js r128 원본 의존성만 로컬로 제공했다. 개인 사진이나 외부 서비스는 사용하지 않았다.
-- 프로필·이력 확인 로그
+- [프로필·이력 확인 로그](../verification/history-output.txt)

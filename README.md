@@ -1,16 +1,14 @@
 # Run-Twin | 4주 러닝 훈련 시뮬레이터
 
-> 프로젝트 기획과 시뮬레이션 설계, 원본 앱 시연을 수록했습니다.
-
-첫 5K를 준비할 때, 앞으로의 훈련과 휴식이 체력과 피로에 어떤 차이를 만들지 살펴보는 러닝 프로토타입입니다. 운동 강도와 시간을 일별 훈련 부하로 바꾸고, 누적 결과를 주별 수치와 그래프로 보여줍니다. 심박·훈련 부하를 계산하는 모델과 결과 화면을 구현했습니다.
+평소 달리던 사람이 첫 5K 대회를 준비할 때, 4주 동안 달리는 날과 쉬는 날을 어떻게 배치할지 살펴보는 러닝 프로토타입입니다. 운동 강도와 시간을 일별 훈련 부하로 바꾸고, 누적 결과를 주별 수치와 그래프로 보여줍니다. 심박·훈련 부하를 계산하는 모델과 결과 화면을 구현했습니다.
 
 ## 5K 목표에서 훈련 결과까지
 
 ![5K 목표를 선택하고 4주 일정을 만든 뒤, 시뮬레이션으로 체력과 피로의 변화 추세를 확인하는 화면](docs/portfolio-readme/assets/demo-simulation-flow.gif)
 
-**5K 목표 선택 → 4주 일정 생성 → 시뮬레이션 실행 → 결과 확인.** 첫 주에는 이지런·인터벌·장거리주 등 4회, 총 23km의 일정이 잡힙니다. 운동별 거리와 페이스 목표를 검토한 다음 시뮬레이션을 실행하면, 주차별 체력(CTL)과 피로(ATL), 두 값의 차이(TSB)를 비교할 수 있습니다.
+**5K 목표 선택 → 4주 일정 생성 → 시뮬레이션 실행 → 결과 확인.** 기본 5K 일정의 첫 주는 이지런·인터벌·장거리주 등 4회, 총 23km입니다. 운동별 거리와 페이스 목표를 검토한 다음 시뮬레이션을 실행하면, 주차별 체력(CTL)과 피로(ATL), 두 값의 차이(TSB)를 비교할 수 있습니다.
 
-[첫 주 일정](docs/portfolio-readme/assets/demo-5k-week.png) · [시뮬레이션 결과](docs/portfolio-readme/assets/demo-sim-result.png)
+[첫 주 일정](docs/portfolio-readme/assets/demo-5k-week.png) · [시뮬레이션 결과](docs/portfolio-readme/assets/demo-sim-result.png) · [MP4](docs/portfolio-readme/assets/demo-simulation-flow.mp4)
 
 결과 화면에는 러닝 아바타와 VO₂max·CTL이 표시되며, 체력·피로 그래프도 확인할 수 있습니다.
 
@@ -60,6 +58,6 @@
 
 ![브라우저, Python 실행 환경과 SQLite·심박 모델 파일의 관계](docs/portfolio-readme/assets/twin-infrastructure.png)
 
-프로토타입은 HTML·CSS·JavaScript와 Chart.js로 화면을 구성했고, 계산 로직과 데이터 접근은 Python·FastAPI·SQLite로 분리했습니다. 위 시나리오는 내장 5K 일정과 러닝 이력이 들어 있는 로컬 트윈 프로필로 다시 실행할 수 있습니다.
+프로토타입은 HTML·CSS·JavaScript와 Chart.js로 화면을 구성했고, 계산 로직과 데이터 접근은 Python·FastAPI·SQLite로 분리했습니다.
 
 [편집 가능한 실행 환경 다이어그램](docs/portfolio-readme/assets/twin-infrastructure.drawio) · [코드 및 시연 재현 방법](docs/portfolio-readme/docs/evidence.md)
